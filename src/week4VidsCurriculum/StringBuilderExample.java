@@ -11,11 +11,11 @@ String space = " ";
 System.out.println(firstName);
 System.out.println(lastName);
 
-StringBuilder sb = new StringBuilder();
+StringBuffer sb = new StringBuffer();
 
-StringBuilder output = new StringBuilder();
-
-output.append(firstName);
+//StringBuilder output = new StringBuilder();
+//
+//output.append(firstName);
 // use append() to dynamically create a String using StringBuilder 
 //append() is not working... investigate tomorrow
 sb.append(firstName);

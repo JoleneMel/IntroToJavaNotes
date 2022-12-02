@@ -53,19 +53,19 @@ public class StringBuilder {
 		System.out.println(firstName);
 		System.out.println(lastName);
 
-		StringBuilder sb = new StringBuilder();
-		
+		StringBuffer sb = new StringBuffer();
+		//For some reason its giving an error with StringBuilder, but goes away with StringBuffer
 		sb.append(firstName);
-//		sb.append("");
-//		// use append() to dynamically create a String using StringBuilder 
-//		sb.append(firstName);
-//		sb.append(space);
-//		sb.append(lastName);
-//		System.out.println(sb.toString());
+	sb.append("");
+	//use append() to dynamically create a String using StringBuilder 
+	sb.append(firstName);
+		sb.append(space);
+		sb.append(lastName);
+		System.out.println(sb.toString());
 //
 //		// Add a middle Initial
-//		sb.insert(firstName.length()+1, middleInitial + space);
-//		System.out.println(sb.toString());
+	sb.insert(firstName.length()+1, middleInitial + space);
+		System.out.println(sb.toString());
 //		
 		}
 

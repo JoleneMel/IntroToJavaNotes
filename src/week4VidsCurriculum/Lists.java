@@ -63,7 +63,7 @@ public class Lists {
 		myInstruments3.add("Clarinet");
 		myInstruments3.add("Oboe");
 
-//
+		System.out.println(myInstruments3);
 //		A List:
 //		- Is Ordered
 //		- Preserves Insertion Order
