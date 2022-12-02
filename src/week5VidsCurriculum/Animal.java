@@ -1,6 +1,12 @@
 package week5VidsCurriculum;
 
 public class Animal {
+	
+
+//Let's create an example of a class and an object.
+//
+//First, we are going to create a class called Animal.  This class will have two constructors, getters, setters, and a describe() method.
+	
 String name;
 String type;
 double weight;
